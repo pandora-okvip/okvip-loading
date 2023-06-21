@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { SearchOutlined } from "@ant-design/icons";
-import { Button, Space, Tooltip } from "antd";
+// import { SearchOutlined } from "@ant-design/icons";
+// import { Button, Space, Tooltip } from "antd";
 import okvip from "../../../../public/images/okvip.png";
 import styles from "@/pages/component/Link/Link.module.css";
 import Head from "next/head";
@@ -18,11 +18,8 @@ const Link = () => {
       </Head>
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          <div className={styles.search}>
-            <div
-              className={styles.search_form}
-              // style={{ margin: "auto", maxWidth: "350px" }}
-            >
+          {/* <div className={styles.search}>
+            <div className={styles.search_form}>
               <input
                 type="text"
                 placeholder="Xác Minh Trang Web OKVIP"
@@ -32,10 +29,78 @@ const Link = () => {
                 <i class="fa fa-search"></i> Tìm Kiếm
               </button>
             </div>
-          </div>
+          </div> */}
           <div></div>
+          <div className={styles.LinkContainer}>
+            <div className={styles.link_item_container}>
+              <div className={styles.link_item}>
+                <span className={styles.sp1}>1</span>
+                <a href="" target="_blank">
+                  LINK 1
+                </a>
+                <span className={styles.sp2}>
+                  <a href="">TRUY CẬP</a>
+                </span>
+              </div>
+            </div>
+            <div className={styles.link_item_container}>
+              <div className={styles.link_item}>
+                <span className={styles.sp1}>2</span>
+                <a href="" target="_blank">
+                  LINK 2
+                </a>
+                <span className={styles.sp2}>
+                  <a href="">TRUY CẬP</a>
+                </span>
+              </div>
+            </div>
+            <div className={styles.link_item_container}>
+              <div className={styles.link_item}>
+                <span className={styles.sp1}>3</span>
+                <a href="" target="_blank">
+                  LINK 3
+                </a>
+                <span className={styles.sp2}>
+                  <a href="">TRUY CẬP</a>
+                </span>
+              </div>
+            </div>
+            <div className={styles.link_item_container}>
+              <div className={styles.link_item}>
+                <span className={styles.sp1}>4</span>
+                <a href="" target="_blank">
+                  LINK 4
+                </a>
+                <span className={styles.sp2}>
+                  <a href="">TRUY CẬP</a>
+                </span>
+              </div>
+            </div>
+            <div className={styles.link_item_container}>
+              <div className={styles.link_item}>
+                <span className={styles.sp1}>5</span>
+                <a href="" target="_blank">
+                  LINK 5
+                </a>
+                <span className={styles.sp2}>
+                  <a href="">TRUY CẬP</a>
+                </span>
+              </div>
+            </div>
+            <div className={styles.link_item_container}>
+              <div className={styles.link_item}>
+                <span className={styles.sp1}>6</span>
+                <a href="" target="_blank">
+                  LINK 6
+                </a>
+                <span className={styles.sp2}>
+                  <a href="">TRUY CẬP</a>
+                </span>
+              </div>
+            </div>
+          </div>
           <div className={styles.okvip}>
-            <Image src={okvip} width={1200} height={675} />
+            <Image src={okvip} />
           </div>
         </div>
       </div>
