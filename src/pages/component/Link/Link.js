@@ -18,7 +18,7 @@ const Link = () => {
       </Head>
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          {/* <div className={styles.search}>
+          <div className={styles.search}>
             <div className={styles.search_form}>
               <input
                 type="text"
@@ -29,7 +29,7 @@ const Link = () => {
                 <i class="fa fa-search"></i> Tìm Kiếm
               </button>
             </div>
-          </div> */}
+          </div>
           <div></div>
           <div className={styles.LinkContainer}>
             <div className={styles.link_item_container}>
