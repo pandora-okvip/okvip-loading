@@ -1,25 +1,51 @@
 import React from "react";
-import { Image } from "next/image";
-import { Link } from "next/link";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "@/pages/component/Header/Header.module.css";
 import logo from "../../../../public/images/logo.png";
 const Header = () => {
   return (
     <>
-      <div className="flex justify-between h-[104px] bg-black text-white text-xl">
-        <div>
-          <Link href="/">
-            <Image src={logo} />
-          </Link>
-        </div>
-        <div>
-          <Link href="#">Bắn Cá</Link>
-          <Link href="#">Casino</Link>
-          <Link href="#">Đá Gà</Link>
-          <Link href="#">Khuyến Mãi</Link>
-          <Link href="#">Thể Thao</Link>
-          <Link href="#">Tin Tức</Link>
-          <Link href="#">World Cup</Link>
-          <Link href="#">Xổ Số Lô Đề</Link>
+      <div className={styles.container}>
+        <div className={styles.wrapper}>
+          <div>
+            <div className={styles.main_menu}>
+              <div>
+                <Image
+                  className={styles.logo}
+                  src={logo}
+                  width={180}
+                  height={63}
+                />
+              </div>
+              <div className={styles.navi}>
+                <Link className={styles.link_item} href="">
+                  Bắn Cá
+                </Link>
+                <Link className={styles.link_item} href="">
+                  Casino
+                </Link>
+                <Link className={styles.link_item} href="">
+                  Đá Gà
+                </Link>
+                <Link className={styles.link_item} href="">
+                  Khuyến Mãi
+                </Link>
+                <Link className={styles.link_item} href="">
+                  Thể Thao
+                </Link>
+                <Link className={styles.link_item} href="">
+                  Tin Tức
+                </Link>
+                <Link className={styles.link_item} href="">
+                  World Cup
+                </Link>
+                <Link className={styles.link_item} href="">
+                  Xổ Số Lô Đề
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

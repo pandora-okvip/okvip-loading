@@ -1,0 +1,64 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    background: #323232;
+
+}
+.card{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.title{
+    padding-top: 27px;
+    margin-bottom: 35px;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.logo{
+    display: block;
+    max-width: 349px;
+    width: 100%;
+    margin:  0 auto;
+    padding-bottom: 35px;
+
+}
+.content{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+    color: #fff;
+    padding: 15px;
+}
+.readmore{
+    margin-top: 35px;
+    height: 50px;
+    line-height: 50px;
+    background: #000;
+    max-width: 1200px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+
+}
+.iconReadmore{
+    display: block;
+    float: left;
+    line-height: 50px;
+    margin-left: 30px;
+    color: orange;
+}

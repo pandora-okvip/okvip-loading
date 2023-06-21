@@ -1,0 +1,39 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    
+}
+.wrapper{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    background: #000;
+    height: 104px;
+}
+.main_menu{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    height: 104px;
+    line-height: 104px;
+}
+
+.logo{
+    display: block;
+    margin-top: 20px;
+    
+}
+.navi{
+    color:#fff;
+    }
+.navi .link_item{
+        margin: 0 15px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+    }
+.navi .link_item:hover{
+    color: #ffffff7f;
+}
