@@ -6,9 +6,9 @@ import ReadMore from "../component/Readmore/Readmore";
 const HomePage = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Link />
-      <ReadMore />
+      {/* <ReadMore /> */}
     </div>
   );
 };
