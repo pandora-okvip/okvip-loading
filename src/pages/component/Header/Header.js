@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "@/pages/component/Header/Header.module.css";
 import logo from "../../../../public/images/logo.png";
+
 const Header = () => {
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
     <>
       <div className={styles.container}>

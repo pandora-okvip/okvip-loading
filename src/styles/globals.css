@@ -8,3 +8,36 @@
   margin: 0;
   font-family: 'Inter';
 }
+@media screen and (min-width: 786px)
+{
+  .img_logo{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+  }
+  .width_mobile{
+    background: #000;
+  }
+  .bg_mobile{
+    background: #000;
+  }
+  .logo_mobi{
+    margin-left:0px;
+  }
+
+  
+}
+@media screen and (max-width: 785px){
+  .bg_mobile{
+    background: url(../../public/images/link_bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .img_logo{
+    border-bottom: 2px solid orange;
+    background: #000;
+  }
+  .width_mobile{
+    background: transparent  }
+    
+}

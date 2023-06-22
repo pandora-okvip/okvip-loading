@@ -58,7 +58,21 @@
 .iconReadmore{
     display: block;
     float: left;
-    line-height: 50px;
-    margin-left: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
     color: orange;
+}
+@media screen and (max-width: 768px) {
+    .title{
+        font-size: 20px;
+    }
+    .logo{
+        width: 60%;
+    }
+    .content{
+        font-size: 18px;
+    }
+    .readmore{
+        font-size: 20px;
+    }
 }
