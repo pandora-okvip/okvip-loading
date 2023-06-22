@@ -315,66 +315,66 @@ const Link = () => {
             <div className={styles.link_item_container}>
               <div className={styles.link_item}>
                 <span className={styles.sp1}>1</span>
-                <a href="" target="_blank">
+                <a href="http://oklavip.com" target="_blank">
                   LINK 1
                 </a>
                 <span className={styles.sp2}>
-                  <a href="">TRUY CẬP</a>
+                  <a href="http://oklavip.com">TRUY CẬP</a>
                 </span>
               </div>
             </div>
             <div className={styles.link_item_container}>
               <div className={styles.link_item}>
                 <span className={styles.sp1}>2</span>
-                <a href="" target="_blank">
+                <a href="http://oklavip.cc" target="_blank">
                   LINK 2
                 </a>
                 <span className={styles.sp2}>
-                  <a href="">TRUY CẬP</a>
+                  <a href="http://oklavip.cc">TRUY CẬP</a>
                 </span>
               </div>
             </div>
             <div className={styles.link_item_container}>
               <div className={styles.link_item}>
                 <span className={styles.sp1}>3</span>
-                <a href="" target="_blank">
+                <a href="http://oklavip.co" target="_blank">
                   LINK 3
                 </a>
                 <span className={styles.sp2}>
-                  <a href="">TRUY CẬP</a>
+                  <a href="http://oklavip.co">TRUY CẬP</a>
                 </span>
               </div>
             </div>
             <div className={styles.link_item_container}>
               <div className={styles.link_item}>
                 <span className={styles.sp1}>4</span>
-                <a href="" target="_blank">
+                <a href="http://oklavip.live" target="_blank">
                   LINK 4
                 </a>
                 <span className={styles.sp2}>
-                  <a href="">TRUY CẬP</a>
+                  <a href="http://oklavip.live">TRUY CẬP</a>
                 </span>
               </div>
             </div>
             <div className={styles.link_item_container}>
               <div className={styles.link_item}>
                 <span className={styles.sp1}>5</span>
-                <a href="" target="_blank">
+                <a href="http://oklavip.live" target="_blank">
                   LINK 5
                 </a>
                 <span className={styles.sp2}>
-                  <a href="">TRUY CẬP</a>
+                  <a href="http://oklavip.live">TRUY CẬP</a>
                 </span>
               </div>
             </div>
             <div className={styles.link_item_container}>
               <div className={styles.link_item}>
                 <span className={styles.sp1}>6</span>
-                <a href="" target="_blank">
+                <a href="http://oklavip.club" target="_blank">
                   LINK 6
                 </a>
                 <span className={styles.sp2}>
-                  <a href="">TRUY CẬP</a>
+                  <a href="http://oklavip.club">TRUY CẬP</a>
                 </span>
               </div>
             </div>
