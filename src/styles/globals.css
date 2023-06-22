@@ -8,10 +8,10 @@
   margin: 0;
   font-family: 'Inter';
 }
-@media screen and (min-width: 786px)
+@media screen and (min-width: 768px)
 {
   .img_logo{
-    display: flex;
+      display: flex;
     justify-content: space-between;
     background: #000;
   }
@@ -22,22 +22,53 @@
     background: #000;
   }
   .logo_mobi{
-    margin-left:0px;
+    margin-left:350px;
+    display: none;
   }
 
-  
 }
-@media screen and (max-width: 785px){
-  .bg_mobile{
-    background: url(../../public/images/link_bg.png) no-repeat;
-    background-size: cover;
-    background-position: center;
+@media screen and ( min-width: 1025px){
+  .logo_mobi{
+    display: block;
+  }
+}
+@media screen and ( min-width: 1024px){
+  .icon_back {
+    position: absolute;
+    right: 56rem;
+}
+}
+@media  (max-width: 768px){ 
+  .icon_navbar{
+    position: absolute !important;
+  }
+  .menu_mobile{
+position: absolute;
+top: -65px;
+  }
+.icon_logos{
+  margin-top: -15px;
+  margin-left: -10px;
+}
+  .logo_mobi{
+    display: block;
   }
   .img_logo{
-    border-bottom: 2px solid orange;
-    background: #000;
+    width: 230px;
+    /* border-bottom: 2px solid orange; */
+    background: transparent;
+  }
+  .icon_back{
+    position: absolute;
+    left: 185px;
+    top: 13px
   }
   .width_mobile{
-    background: transparent  }
-    
+    background: transparent ; 
+    padding-right: unset;
+  }
+  .logo_mobi{
+    display: none;
+  }
+  
 }
