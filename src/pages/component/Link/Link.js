@@ -180,7 +180,7 @@ const Link = () => {
                                 
                 <Image className="icon_logos left-0 mr-0 top-0 p-4" src={logos} width={150} height={60} alt="" />
                 <div className="flex justify-start item-midle mt-2">
-                  <Image  className="h-6 w-6 mt-2" src={banca} width={30} heidth={25} />
+                  <Image  className="h-6 w-6 mt-2" src={banca} width={30} heidth={25} alt=""/>
                   <a
                     href="#"
                     className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-[23px]  font-medium"
@@ -192,7 +192,7 @@ const Link = () => {
                 <div className="flex justify-start items-center  mt-2">
                   <Image 
                   className="h-6 w-6 mt-2" 
-                  src={casino} width={30} heidth={25} />
+                  src={casino} width={30} heidth={25} alt=""/>
                   <a
                     href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-[23px]  font-medium"
@@ -206,7 +206,7 @@ const Link = () => {
                     className="h-6 w-6 mt-2"
                     src={daga}
                     width={30}
-                    heidth={25}
+                    heidth={25} alt=""
                   />
                   <a
                     href="#"
@@ -217,7 +217,7 @@ const Link = () => {
                 </div>
 
                 <div className="flex justify-start  mt-2">
-                  <Image
+                  <Image alt=""
                      className="h-6 w-6 mt-2"
                     src={khuyenmai}
                     width={30}
@@ -232,7 +232,7 @@ const Link = () => {
                 </div>
 
                 <div className="flex justify-start  mt-2">
-                  <Image
+                  <Image alt=""
                     className="h-6 w-6 mt-2"
                     src={thethao}
                     width={30}
@@ -246,7 +246,7 @@ const Link = () => {
                   </a>
                 </div>
                 <div className="flex justify-start  mt-2">
-                  <Image
+                  <Image alt=""
                      className="h-6 w-6 mt-2"
                     src={tintuc}
                     width={30}
@@ -260,7 +260,7 @@ const Link = () => {
                   </a>
                 </div>
                 <div className="flex justify-start  mt-2">
-                  <Image
+                  <Image alt=""
                    className="h-6 w-6 mt-2"
                     src={worldcup}
                     width={30}
@@ -274,7 +274,7 @@ const Link = () => {
                   </a>
                 </div>
                 <div className="flex justify-start  mt-2">
-                  <Image
+                  <Image alt=""
                     className="h-6 w-6 mt-2"
                     src={xoso}
                     width={30}
@@ -296,7 +296,7 @@ const Link = () => {
         <div className={styles.container}>
         
         <div>
-          <Image src={logomobi} width={250} height={156} className="m-auto pt-8 dm:block lg:hidden"/>
+          <Image src={logomobi} width={250} height={156} alt="" className="m-auto pt-8 dm:block lg:hidden"/>
         </div>
           <div className={styles.search}>
             <div className={styles.search_form}>
@@ -359,11 +359,11 @@ const Link = () => {
             <div className={styles.link_item_container}>
               <div className={styles.link_item}>
                 <span className={styles.sp1}>5</span>
-                <a href="http://oklavip.live" target="_blank">
+                <a href="http://okvip.com" target="_blank">
                   LINK 5
                 </a>
                 <span className={styles.sp2}>
-                  <a href="http://oklavip.live">TRUY CẬP</a>
+                  <a href="http://okvip.com">TRUY CẬP</a>
                 </span>
               </div>
             </div>
